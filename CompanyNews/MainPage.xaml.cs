@@ -13,7 +13,7 @@ namespace CompanyNews
     public partial class MainPage : ContentPage
     {
         public IList<NewsItem> NewsItems { get; private set; }
-        //
+        
         public MainPage()
         {
             InitializeComponent();
