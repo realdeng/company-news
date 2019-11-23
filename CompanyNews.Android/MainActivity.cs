@@ -28,7 +28,7 @@ namespace CompanyNews.Droid
             // APPCENTER
             AppCenter.Start("d0fc3a34-d456-41fe-92b4-cca56a25d58d",
                    typeof(Analytics), typeof(Crashes), typeof(Push), typeof(Distribute));
-            //test1121
+            
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
             FFImageLoading.Forms.Platform.CachedImageRenderer.InitImageViewHandler();
 
